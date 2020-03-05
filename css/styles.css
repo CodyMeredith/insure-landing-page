@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+}
+
+h3 {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: -1px;
+}
+
+.nav-logo {
+  position: absolute;
+  margin: 1% 0 0 10%;
+}
+
+.nav li {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  display: inline;
+  float: right;
+  padding: 8px;
+  text-decoration: none;
+}
+
+#nav-view-plans {
+  display: inline-block;
+  padding: 10px 40px;
+  border: 0.1em solid hsl(256, 26%, 20%);
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  color: hsl(256, 26%, 20%);
+  font-family:'Karla', sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+#nav-view-plans:hover {
+  color: hsl(0, 0%, 98%);
+  background-color: hsl(256, 26%, 20%);
+}
+
+#top-hr {
+  color: hsl(0, 0%, 98%);
+  width: 8%;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 150px;
+  }
+
+#bg-top-left {
+  position: absolute;
+}
+
+.view-plans-button {
+  display: inline-block;
+  padding: 10px 40px;
+  border: 0.1em solid hsl(0, 0%, 98%);
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  color: hsl(0, 0%, 98%);
+  font-family:'Karla', sans-serif;
+  margin: 0 0 100px 180px;
+  letter-spacing: 1px;
+  text-align: center;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.view-plans-button:hover {
+  color: hsl(256, 26%, 20%);
+  background-color: hsl(0, 0%, 98%);
+}
+
+.intro-img {
+  position: absolute;
+  padding: 150px 0 0 1190px;
+}
+
+.bg-top-right {
+  float: right;
+}
+
+.header {
+  background-color: hsl(256, 26%, 20%);
+  margin: 0;
+}
+
+.title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 5rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 98%);
+  padding-left: 10%;
+  padding-top: 10%;
+  line-height: 4rem;
+  letter-spacing: -1px;
+}
+
+.intro {
+  color: hsl(0, 0%, 98%);
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.7rem;
+  padding-left: 10%;
+  padding-bottom: 2%;
+}
+
+#bottom-hr {
+  color: hsl(0, 0%, 98%);
+  width: 8%;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 15%;
+  }
+
+.sub-heading {
+  color: hsl(256, 26%, 20%);
+  font-family: 'DM Serif Display', serif;
+  font-size: 5rem;
+  font-weight: 700;
+  padding: 17% 0 5% 10%;
+  line-height: 4rem;
+  letter-spacing: -1px;
+}
+
+.different-table {
+  float: left;
+  margin: 0 10%;
+  text-align: left;
+}
+
+.different-table th, td {
+  width: 360px;
+  padding: 5px 40px;
+}
+
+.button-info {
+  color: hsl(256, 26%, 20%);
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  line-height: 1.7rem;
+}
+
+.closing {
+  background-color: hsl(256, 26%, 20%);
+  display: inline-block;
+  margin: 10%;
+  width: 70%;
+}
+
+.bg-bottom-right {
+  float: right;
+}
+
+.bottom-heading {
+  float: left;
+  font-family: 'DM Serif Display', serif;
+  font-size: 5rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 98%);
+  line-height: 4rem;
+  letter-spacing: -1px;
+  margin-left: 5%;
+}
+
+.how-we-work-button {
+  display: inline-block;
+  padding: 10px 40px;
+  border: 0.1em solid hsl(0, 0%, 98%);
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  color: hsl(0, 0%, 98%);
+  font-family:'Karla', sans-serif;
+  position: absolute;
+  margin: 100px 0 300px 320px;
+  letter-spacing: 1px;
+  text-align: center;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.how-we-work-button:hover {
+  color: hsl(256, 26%, 20%);
+  background-color: hsl(0, 0%, 98%);
+}
+
+.footer {
+  background-color: hsl(273, 4%, 51%)
+  margin: 0;
+  display: inline-block;
+}
+
+.footer-logo {
+  margin: 1% 0 3% 10%;
+}
+
+hr {
+  margin-left: 10%;
+}
+
+.footer-table {
+  margin: 3% 10%;
+  padding: 8px;
+  text-align: left;
+}
+
+.footer-table td {
+  color: hsl(256, 26%, 20%);
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  padding: 10px;
+  line-height: 1.7rem;
+  text-align: left;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
